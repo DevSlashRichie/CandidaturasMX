@@ -43,14 +43,14 @@ class ViewerHeader extends React.Component<any, any> {
             <header>
                 <div className="viewer-header">
                     <div className="title">
-                        <h3>Header</h3>
+                        <h3>Selecciona tu Estado y Debajo escribe tu sección</h3>
                     </div>
                     <div className="fields">
                         <Select
                             options={this.estados()}
                             onChange={this.handleChange}
                         />
-                        <input type="number" onChange={this.handleDistrictChange} />
+                        <input type="number" onChange={this.handleDistrictChange} placeholder="Tu sección" />
                     </div>
                 </div>
             </header>
