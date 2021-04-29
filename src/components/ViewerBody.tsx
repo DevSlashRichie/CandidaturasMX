@@ -62,6 +62,7 @@ class ViewerBody extends React.Component<any, any> {
                 return el.nombreEstado === estado.nombreEstado;
             }
 
+            return undefined;
         }) || [];
 
         return selected.map(el => {
